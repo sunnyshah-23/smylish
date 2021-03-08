@@ -11,7 +11,18 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
-
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous"
+  />
     <link rel="stylesheet" type="text/css" href="styles.css" />
   
   </head>
@@ -91,7 +102,7 @@
     </nav> -->
 
     <!-- second header -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light header">
+    <nav class="navbar navbar-expand-lg ">
       <div class="container-fluid">
         <img src="img/logo (3).png" alt="" width="150" height="50" />
         <button
@@ -145,6 +156,7 @@
             class="d-block w-100"
             alt="..."
           />
+          
         </div>
         <div class="carousel-item">
           <img
@@ -286,6 +298,72 @@
       </div>
     </div>
     <!-- ENDS -->
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img src="img/am I eligible/Openbite.png" alt="" />
+        <p>Openbite</p>
+      </div>
+      <div class="item">
+        <img src="img/am I eligible/underbite.png" alt="" />
+        <p>Underbite</p>
+      </div>
+      <div class="item">
+        <img src="img/am I eligible/crooked teeth.png" alt="" />
+        <p>Crooked Teeth</p>
+      </div>
+      <div class="item">
+        <img src="img/am I eligible/crossbite.png" alt="" />
+        <p>Crossbite</p>
+      </div>
+      <div class="item">
+        <img src="img/am I eligible/gap teeth.png" alt="" />
+        <p>Gap Teeth</p>
+      </div>
+      <div class="item">
+        <img src="img/am I eligible/overbite.png" alt="" />
+        <p>Overbite</p>
+      </div>
+      <div class="item">
+        <img src="img/am I eligible/mix of baby and parent teeth.png" alt="" />
+        <p>Mix of Baby and Parent Teeth</p>
+      </div>
+      <div class="item">
+        <img src="img/am I eligible/generally straight teeth.png" alt="" />
+        <p>Generally Straight Teeth</p>
+      </div>
+     
+    </div>
+
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"
+  ></script>
+
+  <script type="text/javascript">
+    $(".owl-carousel").owlCarousel({
+      loop: false,
+      margin: 50,
+      nav: true,
+      dots: false,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 3,
+        },
+        1000: {
+          items: 3,
+        },
+      },
+    });
+  </script>
 
    
 

@@ -2,13 +2,23 @@ p {
   font-size: 20px;
 }
 
-.header {
-  background-color: red !important;
+.navbar {
+  background-color: #fff !important;
 }
 .navbar-nav {
   margin-left: auto;
 }
 
+.nav-item a {
+  color: #f1717d !important;
+}
+
+.navbar-toggler-icon {
+  color: black !important;
+}
+.navbar-toggler {
+  color: blue;
+}
 .social-links img {
   margin: 6px;
 }
@@ -31,4 +41,8 @@ p {
 
 .more_reasons {
   background-color: #11a9a3;
+}
+
+.owl-carousel {
+  margin-top: 40px;
 }
