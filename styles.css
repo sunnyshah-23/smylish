@@ -92,3 +92,49 @@ p {
   margin-top: 50px;
   color: white;
 }
+
+.pricing {
+  margin-top: 40px;
+}
+
+.pricing img {
+  height: 50px;
+  width: 150px;
+}
+
+.pricing button {
+  background-color: #f1717d;
+}
+
+.footer1 {
+  background-color: #d0d0d0;
+}
+
+.footer1 .left {
+  margin-top: 30px;
+}
+
+.footer1 .right {
+  margin-top: 30px;
+}
+
+.footer2 {
+  background-color: #11a9a3;
+  color: white;
+}
+
+.footer2 p {
+  padding: 10px;
+}
+
+.header1 .left p {
+  float: left;
+}
+
+.header1 .right p {
+  float: right;
+}
+
+.btn {
+  background-color: #f1717d !important;
+}
