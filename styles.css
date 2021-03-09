@@ -14,9 +14,6 @@ p {
 }
 
 .navbar-toggler-icon {
-  color: black !important;
-}
-.navbar-toggler {
   color: blue;
 }
 .social-links img {
@@ -29,8 +26,18 @@ p {
 
 .more_reasons {
   margin: 20px;
+  padding: 30px;
 }
-
+.more_reasons p {
+  color: white;
+  font-size: 0.9rem;
+}
+.more-reasons-img-r1 img {
+  height: 5rem;
+}
+.more-reasons-img-r2 img {
+  height: 5rem;
+}
 .smylish_reasons img {
   width: 30px;
 }
@@ -45,4 +52,43 @@ p {
 
 .owl-carousel {
   margin-top: 40px;
+}
+
+.owl-item-text {
+  margin-top: 5px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.smylish_life {
+  margin-top: 40px;
+}
+
+.smylish_life .card {
+  border: none !important;
+}
+
+.no-emergencies img {
+  width: 120px;
+}
+
+.top-reasons {
+  margin-top: 20px;
+  color: #f1717d;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.aligners-parent {
+  background-color: #f1717d;
+  max-width: 100%;
+}
+
+.aligners-image img {
+  margin-top: 30px;
+}
+
+.aligners-content p {
+  margin-top: 50px;
+  color: white;
 }
