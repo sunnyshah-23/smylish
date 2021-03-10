@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 p {
   font-size: 20px;
 }
@@ -82,8 +86,16 @@ p {
 .aligners-parent {
   background-color: #f1717d;
   max-width: 100%;
+  position: relative;
 }
-
+.aligners-parent button {
+  background-color: #11a9a3 !important;
+  color: white;
+  position: absolute;
+  bottom: -19px;
+  border: none;
+  margin-left: 38%;
+}
 .aligners-image img {
   margin-top: 30px;
 }
@@ -99,9 +111,14 @@ p {
 
 .pricing img {
   height: 50px;
-  width: 150px;
+  width: 250px;
 }
 
+.pricing p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
 .pricing button {
   background-color: #f1717d;
 }
@@ -137,4 +154,36 @@ p {
 
 .btn {
   background-color: #f1717d !important;
+}
+
+.quick-links p {
+  margin-bottom: 2px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.contact-us a {
+  font-size: 1rem;
+  margin-top: 25px;
+}
+.contact-us p {
+  font-size: 0.85rem;
+  margin-top: -10px;
+  font-weight: 500;
+}
+
+.reasons-content h5 {
+  margin-top: 2px;
+}
+.r-title {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #f1717d;
+}
+
+.r-description {
+  font-size: 0.85rem;
+  justify-content: center;
+  padding-left: 25px;
+  font-weight: 500;
 }
