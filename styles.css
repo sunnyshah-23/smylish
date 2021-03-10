@@ -194,3 +194,46 @@ p {
   font-weight: 700;
   margin-top: -20px;
 }
+
+@media (max-width: 576px) {
+  .smylish_life .card img {
+    margin-left: 100px;
+  }
+  .aligners-parent button {
+    background-color: #11a9a3 !important;
+    color: white;
+    position: absolute;
+    bottom: -19px;
+    border: none;
+    margin-left: 20%;
+  }
+  .footer1 {
+    padding: 100px;
+  }
+  .footer1 .quick-links {
+    text-align: center;
+  }
+  .footer1 .contact-us {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .smylish_life .card img {
+    margin-left: 100px;
+  }
+  .aligners-parent button {
+    background-color: #11a9a3 !important;
+    color: white;
+    position: absolute;
+    bottom: -19px;
+    border: none;
+    margin-left: 20%;
+  }
+  .footer1 .quick-links {
+    text-align: center;
+  }
+  .footer1 .contact-us {
+    text-align: center;
+  }
+}
