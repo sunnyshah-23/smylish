@@ -27,7 +27,9 @@ p {
 .book-now {
   margin-right: 40px;
 }
-
+.book-now button {
+  border: none !important;
+}
 .more_reasons {
   margin: 20px;
   padding: 30px;
@@ -186,4 +188,9 @@ p {
   justify-content: center;
   padding-left: 25px;
   font-weight: 500;
+}
+.designation {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-top: -20px;
 }
